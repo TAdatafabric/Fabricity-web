@@ -1,8 +1,8 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1>About Us</h1>
-            <p>isi sama penjelasan tentang web kita</p>
+            <h1>Contact Us</h1>
+            <p>isinya contact kita</p>
         </div>
     </div>
 </div>

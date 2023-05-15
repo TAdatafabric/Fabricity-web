@@ -24,10 +24,10 @@
                 <div class="navbar-nav">
                     <a class="nav-link active" href="/">Home </a>
                     <a class="nav-link" href="/pages/about">About</a>
-                    <a class="nav-link active" href="/">Pages </a>
-                    <a class="nav-link" href="/">Services </a>
-                    <a class="nav-link active" href="#">Contact</a>
-                    <a class="nav-link" href="/">Insight </a>
+                    <a class="nav-link active" href="/pages/page">Pages </a>
+                    <a class="nav-link" href="/pages/services">Services </a>
+                    <a class="nav-link active" href="/pages/contact">Contact</a>
+                    <a class="nav-link" href="/pages/insight">Insight </a>
                 </div>
             </div>
         </div>
