@@ -1,80 +1,64 @@
-import dash                     # pip install dash
-from dash.dependencies import Input, Output, State
-from dash import dcc
-from dash import html
-import plotly.express as px     # pip install plotly==5.2.2
+import psycopg2
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
-import pandas as pd             # pip install pandas
-# Data: https://www.dallasopendata.com/Services/Animals-Inventory/qgg6-h4bd
+# PostgreSQL connection details
+db_host = 'postgres'
+db_port = '5432'
+db_name = 'datafabric'
+db_user = 'datafabric'
+db_password = 'Ay0cepatlulu$'
 
-df = pd.read_csv("https://raw.githubusercontent.com/Coding-with-Adam/Dash-by-Plotly/master/Analytic_Web_Apps/Excel_to_Dash_Animal_Shelter/Animals_Inventory.csv")
-df["intake_time"] = pd.to_datetime(df["intake_time"])
-df["intake_time"] = df["intake_time"].dt.hour
-print(df.head())
+# Google Sheets credentials and API details
+google_sheets_credentials = 'ta-data-fabric-d689bfc94931.json'
+google_sheets_scope = ['https://www.googleapis.com/auth/spreadsheets']
+google_sheets_spreadsheet_id = '1Lii15km8Q91IWQKrhY6I0f92ZR2o4st7'
 
+# Connect to PostgreSQL
+try:
+    conn = psycopg2.connect(
+        host=db_host,
+        port=db_port,
+        database=db_name,
+        user=db_user,
+        password=db_password
+    )
+    cursor = conn.cursor()
+    print('Connected to PostgreSQL!')
+except (Exception, psycopg2.Error) as error:
+    print('Error connecting to PostgreSQL:', error)
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+# Connect to Google Sheets
+try:
+    credentials = ServiceAccountCredentials.from_json_keyfile_name(
+        google_sheets_credentials,
+        google_sheets_scope
+    )
+    gc = gspread.authorize(credentials)
+    sheet = gc.open_by_key(google_sheets_spreadsheet_id).sheet1
+    print('Connected to Google Sheets!')
+except Exception as error:
+    print('Error connecting to Google Sheets:', error)
 
-app.layout = html.Div([
-    html.H1("Analytics Dashboard of Dallas Animal Shelter (Dash Plotly)", style={"textAlign":"center"}),
-    html.Hr(),
-    html.P("Choose animal of interest:"),
-    html.Div(html.Div([
-        dcc.Dropdown(id='animal-type', clearable=False,
-                     value="DOG",
-                     options=[{'label': x, 'value': x} for x in
-                              df["animal_type"].unique()]),
-    ],className="two columns"),className="row"),
+# Read data from Google Sheets and insert into PostgreSQL
+sheet_data = sheet.get_all_records()
+for row in sheet_data:
+    # Assuming the data columns in Google Sheets are 'column1', 'column2', 'column3'
+    column1_value = row['column1']
+    column2_value = row['column2']
+    column3_value = row['column3']
+    
+    # Assuming the PostgreSQL table name is 'your_table_name' with columns 'column1', 'column2', 'column3'
+    insert_query = "INSERT INTO your_table_name (column1, column2, column3) VALUES (%s, %s, %s)"
+    record_to_insert = (column1_value, column2_value, column3_value)
+    
+    try:
+        cursor.execute(insert_query, record_to_insert)
+        conn.commit()
+        print('Inserted row into PostgreSQL:', record_to_insert)
+    except (Exception, psycopg2.Error) as error:
+        print('Error inserting row into PostgreSQL:', error)
 
-    html.Div(id="output-div", children=[]),
-])
-
-
-@app.callback(Output(component_id="output-div", component_property="children"),
-              Input(component_id="animal-type", component_property="value"),
-)
-def make_graphs(animal_chosen):
-    # HISTOGRAM
-    df_hist = df[df["animal_type"]==animal_chosen]
-    fig_hist = px.histogram(df_hist, x="animal_breed")
-    fig_hist.update_xaxes(categoryorder="total descending")
-
-    # STRIP CHART
-    fig_strip = px.strip(df_hist, x="animal_stay_days", y="intake_type")
-
-    # SUNBURST
-    df_sburst = df.dropna(subset=['chip_status'])
-    df_sburst = df_sburst[df_sburst["intake_type"].isin(["STRAY", "FOSTER", "OWNER SURRENDER"])]
-    fig_sunburst = px.sunburst(df_sburst, path=["animal_type", "intake_type", "chip_status"])
-
-    # Empirical Cumulative Distribution
-    df_ecdf = df[df["animal_type"].isin(["DOG","CAT"])]
-    fig_ecdf = px.ecdf(df_ecdf, x="animal_stay_days", color="animal_type")
-
-    # LINE CHART
-    df_line = df.sort_values(by=["intake_time"], ascending=True)
-    df_line = df_line.groupby(
-        ["intake_time", "animal_type"]).size().reset_index(name="count")
-    fig_line = px.line(df_line, x="intake_time", y="count",
-                       color="animal_type", markers=True)
-
-    return [
-        html.Div([
-            html.Div([dcc.Graph(figure=fig_hist)], className="six columns"),
-            html.Div([dcc.Graph(figure=fig_strip)], className="six columns"),
-        ], className="row"),
-        html.H2("All Animals", style={"textAlign":"center"}),
-        html.Hr(),
-        html.Div([
-            html.Div([dcc.Graph(figure=fig_sunburst)], className="six columns"),
-            html.Div([dcc.Graph(figure=fig_ecdf)], className="six columns"),
-        ], className="row"),
-        html.Div([
-            html.Div([dcc.Graph(figure=fig_line)], className="twelve columns"),
-        ], className="row"),
-    ]
-
-
-if __name__ == '__main__':
-    app.run_server(debug=True)
+# Close connections
+cursor.close()
+conn.close()
