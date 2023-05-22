@@ -3,10 +3,10 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
 # PostgreSQL connection details
-db_host = 'postgres'
-db_port = '5432'
+db_host = 'localhost'
+db_port = '5433'
 db_name = 'datafabric'
-db_user = 'datafabric'
+db_user = 'postgres'
 db_password = 'Ay0cepatlulu$'
 
 # Google Sheets credentials and API details
