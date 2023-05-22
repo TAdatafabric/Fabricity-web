@@ -10,7 +10,7 @@ db_user = 'postgres'
 db_password = 'Ay0cepatlulu$'
 
 # Google Sheets credentials and API details
-google_sheets_credentials = 'ta-data-fabric-d689bfc94931.json'
+google_sheets_credentials = 'credentials.json'
 google_sheets_scope = ['https://www.googleapis.com/auth/spreadsheets']
 google_sheets_spreadsheet_id = '1Lii15km8Q91IWQKrhY6I0f92ZR2o4st7'
 
