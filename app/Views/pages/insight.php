@@ -3,12 +3,11 @@
         <div class="col">
             <h1>Insight for Your Data</h1>
             <p>ini bisa diedit buat insight</p>
-            <iframe src="http://localhost:3000/d-solo/be0f08ce-17f0-4a6c-9bdf-a7c1be83de8b/tadatafabric-dashboard-grafana?orgId=1&from=1610125200000&to=1628442000000&panelId=6" width="450" height="200" frameborder="0"></iframe>
-                <h3>Tes ini muncul kah?</h3>
-                <?php
-                $output = shell_exec("python insight.py");
-                echo $output;
-                ?> 
+            <iframe src="http://localhost:3010/d-solo/d06fce6d-645d-47ad-a3e5-2a38828d13d4/tadatafabric?orgId=1&from=1684718832205&to=1684740432205&panelId=4" width="450" height="200" frameborder="0"></iframe>
+            <iframe src="http://localhost:3010/d-solo/d06fce6d-645d-47ad-a3e5-2a38828d13d4/tadatafabric?orgId=1&from=1684719516607&to=1684741116607&panelId=3" width="450" height="200" frameborder="0"></iframe>
+            <iframe src="http://localhost:3010/d-solo/d06fce6d-645d-47ad-a3e5-2a38828d13d4/tadatafabric?orgId=1&from=1684719561610&to=1684741161610&panelId=2" width="450" height="200" frameborder="0"></iframe>
+            
+                <h3>Rekomendasi service filter</h3>
         </div>
     </div>
 </div>
