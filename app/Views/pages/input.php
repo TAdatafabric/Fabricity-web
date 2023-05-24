@@ -4,9 +4,8 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1>Hello, world!</h1>
-            <h2>Visualize your data</h2>
-
+            <h1>Input Your Data</h1>
+            <p>ini section untuk input data ke link spreadsheet</p>
         </div>
     </div>
 </div>
