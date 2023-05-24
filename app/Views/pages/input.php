@@ -4,12 +4,8 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1>Visualize Your Data</h1>
-            <p>ini isinya:
-                1. About
-                2. Contact
-            </p>
-
+            <h1>Input Your Data</h1>
+            <p>ini section untuk input data ke link spreadsheet</p>
         </div>
     </div>
 </div>
