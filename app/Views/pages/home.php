@@ -4,11 +4,8 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1>Visualize Your Data</h1>
-            <p>ini isinya:
-                1. About
-                2. Contact
-            </p>
+            <h1>Hello, world!</h1>
+            <h2>Visualize your data</h2>
 
         </div>
     </div>
