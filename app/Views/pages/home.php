@@ -7,6 +7,10 @@
             <h1>Hello, world!</h1>
             <h2>Visualize your data</h2>
 
+            <body>
+                halo
+            </body>
+
         </div>
     </div>
 </div>
