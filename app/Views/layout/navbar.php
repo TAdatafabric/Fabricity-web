@@ -2,7 +2,7 @@
     <div class="container">
         <a class="navbar-brand" href="#">
             <!-- Image and text -->
-            <img src="image/logo.JPG" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="image/Fabric.png" width="30" height="30" class="d-inline-block align-top" alt="">
             Fabricity
         </a>
 
