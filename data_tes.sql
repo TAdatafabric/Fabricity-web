@@ -1,4 +1,4 @@
-CREATE TABLE datafabric1 (
+CREATE TABLE datafabric (
     subs_key BIGINT NOT NULL,
     day_no DATE NOT NULL,
     time_no TIME NOT NULL,
@@ -21,4 +21,4 @@ CREATE TABLE datafabric1 (
 	sid VARCHAR
 );
 
-SELECT * FROM datafabric1, latlong
+SELECT * FROM datafabric
