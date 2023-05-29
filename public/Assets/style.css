@@ -18,13 +18,13 @@ body{
 background-color: var(--home-color);
 font-family: var(--main-font);
 height: 100vh;
-background: linear-gradient(
-    to right,
-    #EBF3F5 0%,
-    #EBF3F5 55%,
-    #1e2c30 55%,
-    #1e2c30 100%
-);
+/* background: linear-gradient( */
+    /* to right, */
+    /* #EBF3F5 0%, */
+    /* #EBF3F5 55%, */
+    /* #1e2c30 55%, */
+    /* #1e2c30 100% */
+/* ); */
 
 
 }
@@ -77,10 +77,10 @@ h1{
 }
 
 .home-wrapper .heading{
-    font-size: 4.1rem;
+    font-size: 4rem;
     font-family: var(--main-font);
     font-weight: bold;
-    color: #141414;   
+    color: #1e2c30;   
 }
 
 .home-wrapper .subheading{
@@ -96,4 +96,66 @@ h1{
 .home-wrapper .content-right{
     flex: 0 0 50%;
 }
+
+.content-right .img-wrapper{
+    max-width: 500px;
+
+}.content-right.img-wrapper img{
+    width: 80%;
+}
+
 /* home end */
+
+/* service start */
+.service .service-wrapper{
+    margin: auto;
+   
+}
+
+.service-wrapper .row1{
+    text-align: center;
+}
+.service-wrapper .label-service{
+    font-size: 15px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--third-color);
+}
+
+.service-wrapper .heading-service{
+    font-size: 40px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--third-color);
+    margin: 10px 0;
+}
+
+.service-wrapper .subheading-service{
+    font-size: 20px;
+}
+
+.service-wrapper .row2{
+    margin: 50px;
+    background-color: #1e2c30;
+    padding: 30px;
+    color: #EBF3F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.row2 .box-service{
+    max-width: 300px;
+}
+/* service end */
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
