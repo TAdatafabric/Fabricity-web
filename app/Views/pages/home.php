@@ -56,18 +56,44 @@
                     <a href="#">Learn More</a>
                 </div>
             </div>
-            <div class="box-service">
-                <i class='bx bxs-hotel'></i>
-                <h3>Masih belum tau</h3>
-                <p>We also provide lodging near the
-                    destination where you are visiting</p>
-                <div class="btn-learn">
-                    <a href="#">Learn More</a>
-                </div>
-            </div>
+        </div>
 </section>
-
 <!-- service end -->
-</div>
-</div>
+
+<!-- statistik start -->
+<section class="statistik">
+    <div class="container statistik-wrapper">
+        <div class="content-img">
+            <img src="image/logo.jpg" alt="">
+        </div>
+        <div class="content-statis">
+            <p class="label-statis">OUR PERFORMANCE</p>
+            <h1 class="heading-statis">We're bringing the data-driven
+                revolution to companies!</h1>
+            <p class="subheading-statis">Dengan menggunakan layanan kami, perusahaan dapat
+                mendapatkan Bussiness Insight dari analisis data ....... (lanjutin keunggulan dari produk)</p>
+
+            <div class="angka=wrapper">
+                <div class="tahun">
+                    <h1>20</h1>
+                    <p>Years
+                        Experience</p>
+                </div>
+                <div class="desti">
+                    <h1>30++</h1>
+                    <p>Destination
+                        Collaboration</p>
+                </div>
+                <div class="customer">
+                    <h1>2k++</h1>
+                    <p>Happy
+                        Customers</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- statistik end -->
 <?= $this->endSection(); ?>

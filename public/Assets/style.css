@@ -138,19 +138,69 @@ h1{
 .service-wrapper .row2{
     margin: 50px;
     background-color: #1e2c30;
-    padding: 30px;
+    
     color: #EBF3F5;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 20px;
+    border-radius: 50px 50px 0 0;
 }
 
 .row2 .box-service{
+    position: relative;
     max-width: 300px;
+    text-align: center;
+    padding: 30px;
+}
+
+.box-service i{
+    font-size: 2rem;
+}
+
+.box-service h3{
+    margin-top: 10px;
+    font-size: 20px;
+
 }
 /* service end */
+
+/* statistik start */
+.statistik-wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statistik-wrapper .content.img{
+    flex: 0 0 50%;
+    max-width: 600px;
+}
+
+.content-img img{
+    width: 100%;
+}
+
+.content-statis .label-statis{
+    font-size: 20px;
+    font-family: var(--main-font);
+    color: var(--third-color);
+}
+
+.content-statis .heading-statis{
+    font-family: var(--main-font);
+    font-size: 40px;
+    font-weight: 700;
+    width: 70%;
+    margin: 20px 0;
+}
+
+.content-statis .subheading-statis{
+    font-size: 20px;
+    width: 70%;
+}
+/* statistik end */
 
 @media screen and (max-width: 991px) {
 
