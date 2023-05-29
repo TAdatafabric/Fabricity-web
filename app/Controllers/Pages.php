@@ -9,19 +9,7 @@ class Pages extends BaseController
         $data = [
             'title' => 'Home | Fabricity'
         ];
-        echo view('layout/header', $data);
-        echo view('pages/home');
-        echo view('layout/footer');
-    }
-
-    public function about()
-    {
-        $data = [
-            'title' => 'About Me | Fabricity'
-        ];
-        echo view('layout/header', $data);
-        echo view('pages/about');
-        echo view('layout/footer');
+        return view('pages/home', $data);
     }
 
     public function insight()
@@ -29,38 +17,38 @@ class Pages extends BaseController
         $data = [
             'title' => 'Insight | Fabricity'
         ];
-        echo view('layout/header', $data);
-        echo view('pages/insight');
-        echo view('layout/footer');
+        return view('pages/insight', $data);
     }
 
-    public function services()
+    public function input()
     {
         $data = [
-            'title' => 'Services | Fabricity'
+            'title' => 'Input Data | Fabricity'
         ];
-        echo view('layout/header', $data);
-        echo view('pages/services');
-        echo view('layout/footer');
+        return view('pages/input', $data);
     }
 
-    public function page()
+    public function divisi1()
     {
         $data = [
-            'title' => 'Pages | Fabricity'
+            'title' => 'Divisi 1'
         ];
-        echo view('layout/header', $data);
-        echo view('pages/page');
-        echo view('layout/footer');
+        return view('pages/divisi1', $data);
     }
 
-    public function contact()
+    public function divisi2()
     {
         $data = [
-            'title' => 'Contact | Fabricity'
+            'title' => 'Divisi 2'
         ];
-        echo view('layout/header', $data);
-        echo view('pages/contact');
-        echo view('layout/footer');
+        return view('pages/divisi2', $data);
+    }
+
+    public function divisi3()
+    {
+        $data = [
+            'title' => 'Divisi 3'
+        ];
+        return view('pages/divisi3', $data);
     }
 }
