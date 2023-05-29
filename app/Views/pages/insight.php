@@ -9,13 +9,8 @@
             <p>Ini section untuk full visualisasi data</p>
 
             <p>ini bisa diedit buat insight</p>
-            <iframe src="http://localhost:3010/d-solo/ac1d307a-bd1d-490b-b474-7915a21b15e2/datafabric?orgId=1&from=1630454400000&to=1630454400000&panelId=1" width="450" height="200" frameborder="0"></iframe>
-                <iframe src="http://localhost:3010/d-solo/ac1d307a-bd1d-490b-b474-7915a21b15e2/datafabric?orgId=1&from=1630454400000&to=1630454400000&panelId=2" width="450" height="200" frameborder="0"></iframe>
-                    <iframe src="http://localhost:3010/d-solo/ac1d307a-bd1d-490b-b474-7915a21b15e2/datafabric?orgId=1&from=1630454400000&to=1630454400000&panelId=3" width="450" height="200" frameborder="0"></iframe>
-                        <iframe src="http://localhost:3010/d-solo/ac1d307a-bd1d-490b-b474-7915a21b15e2/datafabric?orgId=1&from=1630454400000&to=1630454400000&panelId=4" width="450" height="200" frameborder="0"></iframe>
-                            <iframe src="http://localhost:3010/d-solo/ac1d307a-bd1d-490b-b474-7915a21b15e2/datafabric?orgId=1&from=1630454400000&to=1630454400000&panelId=5" width="450" height="200" frameborder="0"></iframe>
-            
-                <h3>Rekomendasi service filter</h3>
+            <iframe src="http://localhost:3010/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?from=1685343715479&to=1685365315479&orgId=1&panelId=1" width="600" height="400" frameborder="0"></iframe>
+            <h3>Rekomendasi service filter</h3>
         </div>
     </div>
 </div>
