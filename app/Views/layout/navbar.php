@@ -10,14 +10,14 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
-            <ul class="navbar-nav text-center">
-                <li class="nav-item active">
+            <ul class="navbar-nav text-right">
+                <li class="nav-item text-center active">
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item text-center active">
                     <a class="nav-link" href="/pages/insight">Insight</a>
                 </li>
-                <li class="nav-item active dropdown">
+                <li class="nav-item text-center active dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Input Data
                     </a>
