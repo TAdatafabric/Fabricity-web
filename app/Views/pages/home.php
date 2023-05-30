@@ -94,4 +94,54 @@
 
 </section>
 <!-- statistik end -->
+
+<!-- footer start -->
+<footer class="footer" id="footer">
+    <div class="container footer-wrapper">
+        <div class="col-1-footer">
+            <h1 class="logo-footer"><img src="image/Fabric.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Fabricity</h1>
+            <p class="subheading-footer">The best service to customers is our top priority</p>
+            <div class="sosmed-icon">
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            </div>
+            <p class="copy">&copy;Copyright 2023 All Right Reserved | Built by Fabricity</p>
+        </div>
+        <div class="col-2-footer">
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Insight</a></li>
+                <li><a href="#">Input Data</a></li>
+            </ul>
+        </div>
+        <div class="col-3-footer">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">Why Fabricity?</a></li>
+                <li><a href="#">Partner with us</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </div>
+        <div class="col-4-footer">
+            <h3>Support</h3>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Accessbility</a></li>
+            </ul>
+        </div>
+        <div class="col-5-footer">
+            <h3>Get in touch</h3>
+            <p>Questions or Feedback</p>
+            <div class="form-input">
+                <input type="text" placeholder="Type your email">
+                <a href="#" class="btn-footer">Submit</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
 <?= $this->endSection(); ?>

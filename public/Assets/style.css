@@ -226,6 +226,46 @@ h1{
 }
 /* statistik end */
 
+/* footer start */
+.footer{
+    margin-top: 200px;
+}
+
+/* .container .footer-wrapper{
+   
+} */
+ .footer-wrapper{
+    margin-right: 50px;
+    display: flex;
+    /* justify-content: space-between;
+    margin: 50px;
+    background-color: #1e2c30 ;
+    color: #EBF3F5; */
+ }
+
+ .col-1-footer .logo-footer{
+    font-family: var(--second-font);
+    font-size: 25px;
+    color: #141414;
+ }
+
+ .logo-footer span{
+    font-size: 25px;
+    color: var(--third-color);
+ }
+
+ .col-1-footer .subheading-footer{
+    font-size: 20px;
+    margin-top: 20px;
+ }
+
+ .sosmed-icon{
+    font-size: 3rem;
+    color: var(--third-color);
+    margin: 20px 5px;
+ }
+/* footer end */
+
 @media screen and (max-width: 991px) {
 
 }
