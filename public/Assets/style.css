@@ -175,7 +175,11 @@ h1{
 
 .statistik-wrapper .content.img{
     flex: 0 0 50%;
-    max-width: 600px;
+    max-width: 400px;
+}
+
+.statistik-wrapper .content-statis{
+    flex: 0 0 50%;
 }
 
 .content-img img{
@@ -183,22 +187,42 @@ h1{
 }
 
 .content-statis .label-statis{
-    font-size: 20px;
+    font-size: 15px;
     font-family: var(--main-font);
     color: var(--third-color);
 }
 
 .content-statis .heading-statis{
     font-family: var(--main-font);
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     width: 70%;
     margin: 20px 0;
 }
 
 .content-statis .subheading-statis{
-    font-size: 20px;
-    width: 70%;
+    font-size: 15px;
+    width: 80%;
+    font-family: var(--heading-font);
+}
+
+.content-statis .angka-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.angka-wrapper .box-angka{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box-angka h1{
+    font-family: var(--main-font);
+    font-weight: 700;
+    color: #141414;
+    font-size: 30px;
 }
 /* statistik end */
 
