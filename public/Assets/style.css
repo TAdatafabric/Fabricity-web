@@ -264,6 +264,42 @@ h1{
     color: var(--third-color);
     margin: 20px 5px;
  }
+
+ .col-1-footer .copy{
+    margin-top: 50px;
+ }
+
+ .col-2-footer h3, .col-3-footer h3, .col-4-footer h3, .col-5-footer h3{
+    font-size: 20px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+ }
+
+ .col-2-footer ul, .col-3-footer ul, .col-4-footer ul{
+    margin-top: 20px;
+ }
+
+ .col-2-footer ul li, .col-3-footer ul li, .col-4-footer ul li{
+    margin-top: 10px;
+ }
+
+ .col-2-footer li a, .col-3-footer li a, .col-4-footer li a{
+    font-size: 18px;
+    color: #1e2c30;
+ }
+
+ .col-5-footer p{
+    margin-top: 20px;
+    font-size: 18px;
+ }
+
+ .form-input{
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(red, green, blue, alpha);
+
+
+ }
 /* footer end */
 
 @media screen and (max-width: 991px) {
