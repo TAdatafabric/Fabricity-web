@@ -175,7 +175,11 @@ h1{
 
 .statistik-wrapper .content.img{
     flex: 0 0 50%;
-    max-width: 600px;
+    max-width: 400px;
+}
+
+.statistik-wrapper .content-statis{
+    flex: 0 0 50%;
 }
 
 .content-img img{
@@ -183,24 +187,120 @@ h1{
 }
 
 .content-statis .label-statis{
-    font-size: 20px;
+    font-size: 15px;
     font-family: var(--main-font);
     color: var(--third-color);
 }
 
 .content-statis .heading-statis{
     font-family: var(--main-font);
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     width: 70%;
     margin: 20px 0;
 }
 
 .content-statis .subheading-statis{
-    font-size: 20px;
-    width: 70%;
+    font-size: 15px;
+    width: 80%;
+    font-family: var(--heading-font);
+}
+
+.content-statis .angka-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.angka-wrapper .box-angka{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box-angka h1{
+    font-family: var(--main-font);
+    font-weight: 700;
+    color: #141414;
+    font-size: 30px;
 }
 /* statistik end */
+
+/* footer start */
+.footer{
+    margin-top: 200px;
+}
+
+/* .container .footer-wrapper{
+   
+} */
+ .footer-wrapper{
+    margin-right: 50px;
+    display: flex;
+    /* justify-content: space-between;
+    margin: 50px;
+    background-color: #1e2c30 ;
+    color: #EBF3F5; */
+ }
+
+ .col-1-footer .logo-footer{
+    font-family: var(--second-font);
+    font-size: 25px;
+    color: #141414;
+ }
+
+ .logo-footer span{
+    font-size: 25px;
+    color: var(--third-color);
+ }
+
+ .col-1-footer .subheading-footer{
+    font-size: 20px;
+    margin-top: 20px;
+ }
+
+ .sosmed-icon{
+    font-size: 3rem;
+    color: var(--third-color);
+    margin: 20px 5px;
+ }
+
+ .col-1-footer .copy{
+    margin-top: 50px;
+ }
+
+ .col-2-footer h3, .col-3-footer h3, .col-4-footer h3, .col-5-footer h3{
+    font-size: 20px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+ }
+
+ .col-2-footer ul, .col-3-footer ul, .col-4-footer ul{
+    margin-top: 20px;
+ }
+
+ .col-2-footer ul li, .col-3-footer ul li, .col-4-footer ul li{
+    margin-top: 10px;
+ }
+
+ .col-2-footer li a, .col-3-footer li a, .col-4-footer li a{
+    font-size: 18px;
+    color: #1e2c30;
+ }
+
+ .col-5-footer p{
+    margin-top: 20px;
+    font-size: 18px;
+ }
+
+ .form-input{
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(red, green, blue, alpha);
+
+
+ }
+/* footer end */
 
 @media screen and (max-width: 991px) {
 
