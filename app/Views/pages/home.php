@@ -18,13 +18,22 @@
     </div>
 </div>
 
+<!-- insight start -->
+<div class="insight">
+    <div class="container insight-wrapper">
+        <a href="/app/Views/pages/create.php" class="btn btn-primary mb-3">View Insight</a>
+    </div>
+</div>
+
+<!-- insight end -->
+
 <!-- service start -->
 <section class="service">
     <div class="container service-wrapper">
         <div class="row1">
             <p class="label-service">What we serve</p>
             <h1 class="heading-service">Top Values for You</h1>
-            <p class="subheading-service">The best service that we will be with you everytime</p>
+            <p class="subheading-service">The best service that will be with you everytime</p>
         </div>
         <div class="row2">
             <div class="box-service">
