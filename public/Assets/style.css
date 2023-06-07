@@ -302,6 +302,14 @@ h1{
  }
 /* footer end */
 
+/* insight start */
+.grafana-frame {
+    width: 100%;
+    height: 500px;
+}
+
+/* insight end */
+
 @media screen and (max-width: 991px) {
 
 }
