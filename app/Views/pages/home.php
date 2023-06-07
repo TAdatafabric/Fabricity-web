@@ -21,7 +21,7 @@
 <!-- insight start -->
 <div class="insight">
     <div class="container insight-wrapper">
-        <a href="/app/Views/pages/create.php" class="btn btn-primary mb-3">View Insight</a>
+        <a href="insight/create" class="btn btn-primary mb-3">View Insight</a>
     </div>
 </div>
 

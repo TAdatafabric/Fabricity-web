@@ -51,12 +51,4 @@ class Pages extends BaseController
         ];
         return view('pages/divisi3', $data);
     }
-
-    public function create()
-    {
-        $data = [
-            'title' => 'View Insight'
-        ];
-        return view('pages/create', $data);
-    }
 }
