@@ -18,14 +18,14 @@
     </div>
 </div>
 
-<!-- insight start -->
-<div class="insight">
+<!-- insight button start -->
+<div class="insight-btn">
     <div class="container insight-wrapper">
-        <a href="/pages/insight" class="btn btn-primary mb-3">View Insight</a>
+        <a href="insight/create" class="btn btn-primary mb-3">View Insight</a>
     </div>
 </div>
 
-<!-- insight end -->
+<!-- insight button end -->
 
 <!-- service start -->
 <section class="service">
@@ -142,14 +142,14 @@
                 <li><a href="#">Accessbility</a></li>
             </ul>
         </div>
-        <div class="col-5-footer">
+        <!-- <div class="col-5-footer">
             <h3>Get in touch</h3>
             <p>Questions or Feedback</p>
             <div class="form-input">
                 <input type="text" placeholder="Type your email">
                 <a href="#" class="btn-footer">Submit</a>
             </div>
-        </div>
+        </div> -->
     </div>
 </footer>
 <!-- footer end -->

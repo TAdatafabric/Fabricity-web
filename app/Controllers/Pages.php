@@ -20,13 +20,13 @@ class Pages extends BaseController
         return view('pages/insight', $data);
     }
 
-    public function input()
-    {
-        $data = [
-            'title' => 'Input Data | Fabricity'
-        ];
-        return view('pages/input', $data);
-    }
+    // public function input()
+    // {
+    //     $data = [
+    //         'title' => 'Input Data | Fabricity'
+    //     ];
+    //     return view('pages/input', $data);
+    // }
 
     public function divisi1()
     {
