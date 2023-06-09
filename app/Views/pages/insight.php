@@ -6,8 +6,6 @@
         <div class="col">
             <h1>Insight for Your Data</h1>
 
-            <p>Ini section untuk full visualisasi data</p>
-            <p>ini bisa diedit buat insight</p>
             <div id="grafana-frame"></div>
 
             <script src="https://unpkg.com/grafana-tools@1.0.0/dist/grafana-tools.min.js"></script>
@@ -29,7 +27,6 @@
             <iframe src="http://localhost:3010/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=-6826978578871&to=-6826909218871&panelId=3" width="400" height="400" frameborder="0"></iframe>
             <!-- rembal -->
             <iframe src="http://localhost:3010/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=-6826978578871&to=-6826909218871&panelId=4" width="400" height="400" frameborder="0"></iframe>
-            <h3>Rekomendasi service filter</h3>
         </div>
     </div>
 </div>
