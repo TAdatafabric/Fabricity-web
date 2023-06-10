@@ -324,10 +324,23 @@ h1{
 /* footer end */
 
 /* insight start */
-.grafana-frame {
-    width: 100%;
-    height: 500px;
-}
+
+.container-insight ,.container-heatmap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bubblemap {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .angka {
+    width: 200px;
+    height: 200px;
+  }
+
   
 
 /* insight end */

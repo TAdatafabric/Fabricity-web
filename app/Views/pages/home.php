@@ -42,28 +42,28 @@
                 <p>We know what to do next
                     with our company with
                     just one click away</p>
-                <div class="btn-learn">
+                <!-- <div class="btn-learn">
                     <a href="#">Learn More</a>
-                </div>
+                </div> -->
             </div>
             <div class="box-service">
-                <i class='bx bxs-cart-add'></i>
+                <i class='bx bxs-pointer'></i>
                 <h3>Easy Access</h3>
                 <p>Providing services online
                     which can be access easily
                     through our website</p>
-                <div class="btn-learn">
+                <!-- <div class="btn-learn">
                     <a href="#">Learn More</a>
-                </div>
+                </div> -->
             </div>
             <div class="box-service">
                 <i class='bx bxs-hotel'></i>
                 <h3>Masih belum tau</h3>
                 <p>We also provide lodging near the
                     destination where you are visiting</p>
-                <div class="btn-learn">
+                <!-- <div class="btn-learn">
                     <a href="#">Learn More</a>
-                </div>
+                </div> -->
             </div>
         </div>
 </section>

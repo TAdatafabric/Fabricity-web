@@ -4,17 +4,31 @@
 <div class="insight">
     <div class="container insight-wrapper">
         <div class="col">
-            <h1>Insight for Your Data</h1>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/insight">Provinsi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/heatmap">Kabupaten/Kota</a>
+                </li>
+            </ul>
+
             </script>
-            <iframe src="http://localhost:3010/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1685412161741&to=1685433761741&panelId=5" frameborder="0"></iframe>
-            <!-- map 2 -->
-            <iframe src="http://localhost:3010/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1685411021697&to=1685432621697&theme=dark&panelId=1" width="400" height="400" frameborder="0"></iframe>
-            <!--  usage-->
-            <iframe src="http://localhost:3010/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=-6826978578871&to=-6826909218871&panelId=2" width="805" height="200" frameborder="0"></iframe>
-            <!-- service filter -->
-            <iframe src="http://localhost:3010/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=-6826978578871&to=-6826909218871&panelId=3" width="400" height="400" frameborder="0"></iframe>
-            <!-- rembal -->
-            <iframe src="http://localhost:3010/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=-6826978578871&to=-6826909218871&panelId=4" width="400" height="400" frameborder="0"></iframe>
+
+            <div class="container-insight">
+                <div class="bubblemap">
+                    <!-- bubble map-->
+                    <iframe src="http://localhost:3010/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1685411021697&to=1685432621697&theme=dark&panelId=1" width="400" height="400" frameborder="0"></iframe>
+                </div>
+                <div class="angka">
+                    <!-- usage -->
+                    <iframe src="http://localhost:3010/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=-6826978578871&to=-6826909218871&panelId=2" width="300" height="150" frameborder="0"></iframe>
+                    <!-- service filter -->
+                    <iframe src="http://localhost:3010/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=-6826978578871&to=-6826909218871&panelId=3" width="300" height="150" frameborder="0"></iframe>
+                </div>
+            </div>
+
+
         </div>
     </div>
 </div>

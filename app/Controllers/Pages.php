@@ -51,4 +51,12 @@ class Pages extends BaseController
         ];
         return view('pages/divisi3', $data);
     }
+
+    public function heatmap()
+    {
+        $data = [
+            'title' => 'Heatmap'
+        ];
+        return view('pages/heatmap', $data);
+    }
 }
