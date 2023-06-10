@@ -11,7 +11,6 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="pages/heatmap">Kabupaten/Kota</a>
                 </li>
-
             </ul>
             </script>
             <div class="container-heatmap">
