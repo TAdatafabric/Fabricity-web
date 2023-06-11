@@ -15,7 +15,7 @@
             </div>
 
             <div class="row mt-4">
-                <div class="col-lg-9">
+                <div class="col-lg-8">
                     <div class="card">
                         <div class="card-body text-center p-1">
                             <div id="map1">
@@ -29,18 +29,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div>
                         <div class="card mb-3">
                             <div class="card-body text-center p-1">
                                 <!-- Frame Service Filter -->
-                                <iframe src="http://localhost:3000/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1686310418654&to=1686332018655&panelId=2" class="w-100" height="100" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1686310418654&to=1686332018655&panelId=2" class="w-100" height="120" frameborder="0"></iframe>
                             </div>
                         </div>
                         <div class="card mb-3">
                             <div class="card-body text-center p-1">
                                 <!-- Frame Usage -->
-                                <iframe src="http://localhost:3000/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1686310441619&to=1686332041619&panelId=3" class="w-100" height="100" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1686310441619&to=1686332041619&panelId=3" class="w-100" height="120" frameborder="0"></iframe>
                             </div>
                         </div>
                         <div class="text-center">
