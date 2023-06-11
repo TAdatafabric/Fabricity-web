@@ -20,13 +20,13 @@ class Pages extends BaseController
         return view('pages/insight', $data);
     }
 
-    public function input()
-    {
-        $data = [
-            'title' => 'Input Data | Fabricity'
-        ];
-        return view('pages/input', $data);
-    }
+    // public function input()
+    // {
+    //     $data = [
+    //         'title' => 'Input Data | Fabricity'
+    //     ];
+    //     return view('pages/input', $data);
+    // }
 
     public function divisi1()
     {
@@ -50,5 +50,13 @@ class Pages extends BaseController
             'title' => 'Divisi 3'
         ];
         return view('pages/divisi3', $data);
+    }
+
+    public function heatmap()
+    {
+        $data = [
+            'title' => 'Heatmap'
+        ];
+        return view('pages/heatmap', $data);
     }
 }

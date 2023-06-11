@@ -9,6 +9,6 @@ class Insight extends BaseController
         $data = [
             'title' => 'View Insight'
         ];
-        return view('insight/create', $data);
+        return view('pages/insight', $data);
     }
 }
