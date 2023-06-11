@@ -34,18 +34,18 @@
                         <div class="card mb-3">
                             <div class="card-body text-center p-1">
                                 <!-- Frame Service Filter -->
-                                <iframe src="http://localhost:3000/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1686310418654&to=1686332018655&panelId=2" class="w-100" height="120" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1686454058045&to=1686475658045&panelId=6" class="w-100" height="120" frameborder="0"></iframe>
                             </div>
                         </div>
                         <div class="card mb-3">
                             <div class="card-body text-center p-1">
                                 <!-- Frame Usage -->
-                                <iframe src="http://localhost:3000/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1686310441619&to=1686332041619&panelId=3" class="w-100" height="120" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1686454182001&to=1686475782001&panelId=2" class="w-100" height="120" frameborder="0"></iframe>
                             </div>
                         </div>
                         <div class="text-center">
                             <!-- button lihat rekomendasi -->
-                            <a href="#" class="btn btn-outline-dark">Lihat Rekomendasi</a>
+                            <a href="http://127.0.0.1:5000/" class="btn btn-outline-dark">Lihat Rekomendasi</a>
                         </div>
                     </div>
                 </div>
