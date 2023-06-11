@@ -11,9 +11,9 @@
         </button>
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
             <ul class="navbar-nav text-right">
-                <li class="nav-item text-center active">
-                    <a class="nav-link" href="/pages/create">Viiiiiew <span class="sr-only">(current)</span></a>
-                </li>
+                <!-- <li class="nav-item text-center active"> -->
+                <!-- <a class="nav-link" href="/pages/create">Viiiiiew <span class="sr-only">(current)</span></a> -->
+                <!-- </li> -->
                 <li class="nav-item text-center active">
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -25,7 +25,7 @@
                         Input Data
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/pages/divisi1">Divisi 1</a>
+                        <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1J3ePZxYOFxAeVg8Xu9K9BM6zdYcH6a-lrz93S99CBBA/edit#gid=1029547607">Divisi 1</a>
                         <a class="dropdown-item" href="/pages/divisi2">Divisi 2</a>
                         <a class="dropdown-item" href="/pages/divisi3">Divisi 3</a>
                     </div>
