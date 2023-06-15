@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
             <!-- Image and text -->
@@ -25,7 +25,7 @@
                         Input Data
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1J3ePZxYOFxAeVg8Xu9K9BM6zdYcH6a-lrz93S99CBBA/edit#gid=1029547607">Divisi 1</a>
+                        <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1J3ePZxYOFxAeVg8Xu9K9BM6zdYcH6a-lrz93S99CBBA/edit#gid=1029547607" target="_blank">Divisi 1</a>
                         <a class="dropdown-item" href="/pages/divisi2">Divisi 2</a>
                         <a class="dropdown-item" href="/pages/divisi3">Divisi 3</a>
                     </div>

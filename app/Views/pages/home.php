@@ -7,25 +7,21 @@
             <h1 class="heading"> Analyzing Data</h1>
             <h1 class="heading"> for You</h1>
             <p class="subheading">We are here to make your work easier!</p>
-            <!-- <div class="box-wrapper"> -->
-            <!-- <div class="box"> -->
-            <!-- <p>Mulai</p> -->
-
+            <!-- insight button -->
+            <div class="insight-btn">
+                <div class="container insight-wrapper">
+                    <a href="insight/create" class="btn btn-primary mb-3">View Insight</a>
+                </div>
+            </div>
         </div>
-        <!-- <div class="content-right"> -->
-        <!-- <div class="img-wrapper"> -->
-        <!-- <img src="image/map.png" width:"500" height="300" alt=""> -->
+        <div class="content-right">
+            <div class="img-wrapper">
+                <img src="image/map.png" width="500px" alt="">
+            </div>
+        </div style="clear: both;">
     </div>
 </div>
 
-<!-- insight button start -->
-<div class="insight-btn">
-    <div class="container insight-wrapper">
-        <a href="insight/create" class="btn btn-primary mb-3">View Insight</a>
-    </div>
-</div>
-
-<!-- insight button end -->
 
 <!-- service start -->
 <section class="service">
@@ -105,7 +101,7 @@
 <!-- statistik end -->
 
 <!-- footer start -->
-<footer class="footer" id="footer">
+<!-- <footer class="footer" id="footer">
     <div class="container footer-wrapper">
         <div class="col-1-footer">
             <h1 class="logo-footer"><img src="image/Fabric.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -141,8 +137,8 @@
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Accessbility</a></li>
             </ul>
-        </div>
-        <!-- <div class="col-5-footer">
+        </div> -->
+<!-- <div class="col-5-footer">
             <h3>Get in touch</h3>
             <p>Questions or Feedback</p>
             <div class="form-input">
@@ -150,7 +146,32 @@
                 <a href="#" class="btn-footer">Submit</a>
             </div>
         </div> -->
-    </div>
-</footer>
+<!-- </div>
+</footer> -->
 <!-- footer end -->
+
+<!-- footer pt 2 -->
+
+<section class="footer">
+    <div>
+        <div class="social">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bx-envelope'></i></a>
+            <a href="#"><i class='bx bx-phone'></i></a>
+        </div>
+
+        <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="/pages/insight">Insight</a></li>
+            <li><a href="#">Input Data</a></li>
+        </ul>
+        <p class="copyright">
+            Fabricity @ 2022
+        </p>
+    </div>
+
+
+
+</section>
+
 <?= $this->endSection(); ?>
