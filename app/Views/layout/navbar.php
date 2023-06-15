@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
             <!-- Image and text -->
@@ -25,9 +25,10 @@
                         Input Data
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1J3ePZxYOFxAeVg8Xu9K9BM6zdYcH6a-lrz93S99CBBA/edit#gid=1029547607">Divisi 1</a>
-                        <a class="dropdown-item" href="/pages/divisi2">Divisi 2</a>
-                        <a class="dropdown-item" href="/pages/divisi3">Divisi 3</a>
+                        <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/16Vrap9JRBTrq9vA-Xz-1ZkLv0GiaWZ6oETrhL4ry-Ok/edit#gid=0" target="_blank">Network System</a>
+                        <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1F0KiwUmqIiknViTQ4Os_SdHdBVA2ErOOrSgH2Hqeumc/edit#gid=0" target="_blank">Finance MSISDN</a>
+                        <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1RxhtYZPFhB5F2a3434SAC6K11j_sRMhRDu5avKHMAQg/edit#gid=0" target="_blank">IT Infrastructure</a>
+                        <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1fQjK_yvaj5yh006nRTcMXaoU0RAx8OUy2IhpZG4tNMw/edit#gid=0" target="_blank">Strategic Marketing Planning</a>
                     </div>
                 </li>
             </ul>
