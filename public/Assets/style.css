@@ -59,6 +59,14 @@ section{
     font-family: var(--heading-font); 
 }
 
+.nav-item:hover{
+    background-color: #f0f0f0; /* Ganti dengan warna latar belakang yang diinginkan saat dihover */
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block; /* Menampilkan dropdown menu saat dihover */
+}
+
 
 /* home start */
 
