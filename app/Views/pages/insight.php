@@ -5,7 +5,7 @@
     <div class="container insight-wrapper">
         <div class="col">
 
-            <div class="row mt-5">
+            <div class="row mt-5 pt-5">
                 <div class="col-12">
                     <div class="btn-group" role="group">
                         <button type="button" class="btn btn-success shadow-none" id="show1">Provinsi</button>

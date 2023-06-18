@@ -11,9 +11,6 @@
         </button>
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
             <ul class="navbar-nav text-right">
-                <!-- <li class="nav-item text-center active"> -->
-                <!-- <a class="nav-link" href="/pages/create">Viiiiiew <span class="sr-only">(current)</span></a> -->
-                <!-- </li> -->
                 <li class="nav-item text-center active">
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
