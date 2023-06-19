@@ -16,7 +16,7 @@
         </div>
         <div class="content-right">
             <div class="img-wrapper">
-                <img src="image/map.png" width="500px" alt="">
+                <img src="image/front pict.png" width="600px" alt="">
             </div>
         </div style="clear: both;">
     </div>
@@ -29,7 +29,7 @@
         <div class="row1">
             <p class="label-service">What we serve</p>
             <h1 class="heading-service">Top Values for You</h1>
-            <p class="subheading-service">The best service that will be with you everytime</p>
+            <p class="subheading-service">The best services that will be with you everytime.</p>
         </div>
         <div class="row2">
             <div class="box-service">
@@ -47,10 +47,10 @@
                     through our website</p>
             </div>
             <div class="box-service">
-                <i class='bx bxs-hotel'></i>
-                <h3>Masih belum tau</h3>
-                <p>We also provide lodging near the
-                    destination where you are visiting</p>
+                <i class='bx bx-vertical-bottom'></i>
+                <h3>Recommendations</h3>
+                <p>We also provide a system that can
+                    make recommendations for your need</p>
             </div>
         </div>
 </section>
@@ -65,7 +65,7 @@
         <div class="content-statis">
             <p class="label-statis">OUR PERFORMANCE</p>
             <h1 class="heading-statis">We're bringing the data-driven revolution to companies!</h1>
-            <p class="subheading-statis">(keunggulan dari produk)</p>
+            <p class="subheading-statis">Our product will simplify your work just </p>
 
             <div class="angka-wrapper">
                 <div class="box-angka">
