@@ -17,6 +17,9 @@
                 <li class="nav-item text-center active">
                     <a class="nav-link" href="/pages/insight">Insight</a>
                 </li>
+                <li class="nav-item text-center active">
+                    <a class="nav-link" href="/pages/coba">Coba</a>
+                </li>
                 <li class="nav-item text-center active dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Input Data

@@ -19,4 +19,11 @@ class Pages extends BaseController
         ];
         return view('pages/insight', $data);
     }
+    public function coba()
+    {
+        $data = [
+            'title' => 'Coba CSS | Fabricity'
+        ];
+        return view('pages/coba', $data);
+    }
 }
