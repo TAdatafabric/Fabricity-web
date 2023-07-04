@@ -20,11 +20,11 @@
                         <div class="card-body text-center p-1">
                             <div id="map1">
                                 <!-- Frame Bubble Map -->
-                                <iframe src="http://localhost:3000/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1686310398171&to=1686331998171&panelId=1" class="w-100 rounded" height="400" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688115155532&to=1688136755532&panelId=1" class="w-100 rounded" height="400" frameborder="0"></iframe>
                             </div>
                             <div class="d-none" id="map2">
                                 <!-- Frame Heat Map -->
-                                <iframe src="http://localhost:3000/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1686310338206&to=1686331938206&panelId=5" class="w-100 rounded" height="400" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688114396500&to=1688135996500&panelId=2" class="w-100 rounded" height="400" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>
@@ -34,13 +34,13 @@
                         <div class="card mb-3">
                             <div class="card-body text-center p-1">
                                 <!-- Frame Service Filter -->
-                                <iframe src="http://localhost:3000/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1686454058045&to=1686475658045&panelId=6" class="w-100" height="120" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688113646137&to=1688135246137&panelId=4" class="w-100 rounded" height="120" frameborder="0"></iframe>
                             </div>
                         </div>
                         <div class="card mb-3">
                             <div class="card-body text-center p-1">
                                 <!-- Frame Usage -->
-                                <iframe src="http://localhost:3000/d-solo/e9d71e09-5d6d-45ac-8aef-b13b21121e75/datafabric?orgId=1&from=1686454182001&to=1686475782001&panelId=2" class="w-100" height="120" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688114030906&to=1688135630906&panelId=3" class="w-100 rounded" height="120" frameborder="0"></iframe>
                             </div>
                         </div>
                         <div class="text-center">
