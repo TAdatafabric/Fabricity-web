@@ -45,7 +45,7 @@
                         </div>
                         <div class="text-center">
                             <!-- button lihat rekomendasi -->
-                            <a href="http://127.0.0.1:5000/" class="btn btn-outline-dark">Lihat Rekomendasi</a>
+                            <a href="http://127.0.0.1:5000/" target="_blank" class="btn btn-outline-dark">Lihat Rekomendasi</a>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
 </div>
 
 <!--
-    untuk file .js nya ada di public/script.js
+     file .js nya ada di public/script.js
 -->
 
 <?= $this->endSection(); ?>
