@@ -4,8 +4,7 @@
 <div class="container-home">
     <div class="container home-wrapper">
         <div class="content-left">
-            <h1 class="heading"> Analyzing Data</h1>
-            <h1 class="heading"> for You</h1>
+            <h1 class="heading"> Analyzing Data for You</h1>
             <p class="subheading">We are here to make your work easier!</p>
             <!-- insight button -->
             <div class="insight-btn">
@@ -16,9 +15,9 @@
         </div>
         <div class="content-right">
             <div class="img-wrapper">
-                <img src="image/front pict.png" width="600px" alt="">
+                <img src="image/front pict.png" alt="">
             </div>
-        </div style="clear: both;">
+        </div>
     </div>
 </div>
 
@@ -48,16 +47,17 @@
             </div>
             <div class="box-service">
                 <i class='bx bx-vertical-bottom'></i>
-                <h3>Recommendations</h3>
-                <p>We also provide a system that can
-                    make recommendations for your need</p>
+                <h3>Insight</h3>
+                <p>Providing services online
+                    which can be access easily
+                    through our website</p>
             </div>
         </div>
 </section>
 <!-- service end -->
 
 <!-- statistik start -->
-<section class="statistik">
+<!-- <section class="statistik">
     <div class="container statistik-wrapper">
         <div class="content-img">
             <img src="image/fabric.png" alt="">
@@ -88,7 +88,7 @@
         </div>
     </div>
 
-</section>
+</section> -->
 <!-- statistik end -->
 
 <!-- footer start -->

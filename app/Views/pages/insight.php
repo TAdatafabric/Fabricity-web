@@ -9,14 +9,14 @@
                 <div class="col-12">
                     <div class="btn-group" role="group">
                         <button type="button" class="btn btn-success shadow-none" id="show1">Provinsi</button>
-                        <button type="button" class="btn btn-outline-success shadow-none" id="show2">Kabupaten / Kota</button>
+                        <!-- <button type="button" class="btn btn-outline-success shadow-none" id="show2">Kabupaten / Kota</button> -->
                     </div>
                 </div>
             </div>
 
             <div class="row mt-4">
                 <div class="col-lg-8">
-                    <div class="card">
+                    <div class="card mb-3">
                         <div class="card-body text-center p-1">
                             <div id="map1">
                                 <!-- Frame Bubble Map -->

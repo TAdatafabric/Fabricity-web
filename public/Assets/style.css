@@ -53,16 +53,16 @@ section{
 /* home start */
 .container-home{
     margin-top: 180px;
-    overflow: hidden; /* Membersihkan float */
+    /* overflow: hidden; Membersihkan float */
 }
-.home .home-wrapper{
+.container-home .home-wrapper{
     margin: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .home-wrapper .heading{
-    font-size: 4.375rem;
+    font-size: 4.1rem;
     font-family: var(--main-font);
     font-weight: bold;
     color: #1e2c30;   
@@ -70,29 +70,35 @@ section{
 .home-wrapper .subheading{
     font-size: 1.188rem;
     font-family: var(--heading-font);
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    margin: 25px 0;
+    max-width: 500px;
 }
 .home-wrapper .content-left{
-    float: left;
-    width: 50%;
+    /* float: left;
+    width: 50%; */
+    flex: 0 0 50%;
 }
 .home-wrapper .content-right{
-    float: left;
-    width: 50%;
+    /* float: left;
+   
+    /* display: flex; */ 
+    flex: 0 0 50%;
 }
 .content-right .img-wrapper{
-    max-width: 800px;  
+    max-width: 850px;  
 }
-.content-right.img-wrapper img{
+.content-right .img-wrapper img{
     width: 100%;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    /* height: auto; */
 }
 .insight-btn .btn-primary {
-    background-color: var(--main-color); /* Primary button color */
-    color: #fff; /* Text color */
+    background-color: var(--main-color); /* warna awal button */
+    color: #fff;
     border: 2px solid #5C8692;
     border-radius: 0px; /* Rounded corners */
-    padding: 10px 20px; /* Padding */
+    padding: 10px 20px;
     text-decoration: none; /* Remove underline */
     font-family: var(--heading-font);
     }
@@ -211,7 +217,7 @@ section{
 
 /* footer start */
 .footer{
-    padding: 30px;
+    padding: 20px;
     background-color: #fff;
 }
 .footer .logo-foot{
@@ -219,7 +225,7 @@ section{
 }
 .footer .social{
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     color: #1e2c30;
 }
 
@@ -266,6 +272,7 @@ section{
     text-align: center;
     font-size: 13px;
     color: #aaa;
+    padding-bottom: 0%;
 }
 /* footer end */
 
@@ -285,6 +292,11 @@ section{
     background-color: var(--main-color) !important;
     color: #fff !important;
  } 
+ .btn-outline-dark{
+    border: 2px solid #5C8692;
+    background-color: var(--main-color);
+    color: #fff;
+ }
 /* insight end */
 
 @media screen and (max-width: 991px) {
