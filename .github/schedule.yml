@@ -2,7 +2,7 @@ name: Scheduled Data Fabric
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Menjalankan setiap hari jam 08:00 UTC
+    - cron: '0 8 * * *'  
 
 jobs:
   build:
