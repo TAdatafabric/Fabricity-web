@@ -1,0 +1,29 @@
+name: Scheduled Data Fabric
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'  
+      
+      - name: Set up MySQL
+        run: |
+          sudo apt-get -y install mysql-client
+          sudo mysql -e "CREATE USER 'user_scheduling'@'localhost' IDENTIFIED BY 'Ay0cepatlulu$';"
+          sudo mysql -e "GRANT ALL PRIVILEGES ON *.* TO 'user_scheduling'@'localhost';"
+          sudo mysql -e "FLUSH PRIVILEGES;"
+      
+      - name: Run Data Merge and Insert
+        run: |
+          python Data.py 
