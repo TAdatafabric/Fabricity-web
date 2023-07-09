@@ -1,0 +1,33 @@
+name: Scheduled Data Fabric
+
+on:
+  schedule:
+    - cron: '40 9 * * *'  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'  
+      
+      - name: Set up MySQL
+        run: |
+           wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy
+           chmod +x cloud_sql_proxy
+           ./cloud_sql_proxy -instances=project-id:region:instance-name=tcp:3306 &
+           sudo apt-get -y install mysql-client
+           
+            mysql --host=34.101.46.136 --port=3306 --user=root --password=Ay0cepatlulu$ --execute="CREATE USER 'user_scheduling'@'%' IDENTIFIED BY 'Ay0cepatlulu$';"
+            mysql --host=34.101.46.136 --port=3306 --user=root --password=Ay0cepatlulu$ --execute="GRANT ALL PRIVILEGES ON *.* TO 'user_scheduling'@'%';"
+            mysql --host=34.101.46.136 --port=3306 --user=root --password=Ay0cepatlulu$ --execute="FLUSH PRIVILEGES;"
+           
+      - name: Run Data Merge and Insert
+        run: |
+          python Data.ipynb
