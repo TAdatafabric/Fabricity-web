@@ -2,7 +2,7 @@ name: Scheduled Data Fabric
 
 on:
   schedule:
-    - cron: '0 9 * * *'  
+    - cron: '30 9 * * *'  
 
 jobs:
   build:
@@ -30,4 +30,4 @@ jobs:
            
       - name: Run Data Merge and Insert
         run: |
-          python Data.py 
+          python Data.ipynb
