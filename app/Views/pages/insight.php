@@ -7,45 +7,39 @@
 
             <div class="row mt-5 pt-5">
                 <div class="col-12">
-                    <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-success shadow-none" id="show1">Provinsi</button>
-                        <!-- <button type="button" class="btn btn-outline-success shadow-none" id="show2">Kabupaten / Kota</button> -->
-                    </div>
+                
                 </div>
             </div>
 
             <div class="row mt-4">
-                <div class="col-lg-8">
+                <div class="col-lg-7">
                     <div class="card mb-3">
                         <div class="card-body text-center p-1">
                             <div id="map1">
                                 <!-- Frame Bubble Map -->
-                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688115155532&to=1688136755532&panelId=1" class="w-100 rounded" height="400" frameborder="0"></iframe>
-                            </div>
-                            <div class="d-none" id="map2">
-                                <!-- Frame Heat Map -->
-                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688114396500&to=1688135996500&panelId=2" class="w-100 rounded" height="400" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688780052580&to=1688801652580&panelId=5" class="w-100 rounded" height="575" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-5">
                     <div>
                         <div class="card mb-3">
                             <div class="card-body text-center p-1">
                                 <!-- Frame Service Filter -->
-                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688113646137&to=1688135246137&panelId=4" class="w-100 rounded" height="120" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688831099924&to=1688852699924&panelId=7" class="w-100 rounded" height="240" frameborder="0"></iframe>
                             </div>
                         </div>
                         <div class="card mb-3">
                             <div class="card-body text-center p-1">
                                 <!-- Frame Usage -->
-                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688114030906&to=1688135630906&panelId=3" class="w-100 rounded" height="120" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688831503747&to=1688853103747&panelId=6" class="w-100 rounded" height="240" frameborder="0"></iframe>
                             </div>
                         </div>
                         <div class="text-center">
                             <!-- button lihat rekomendasi -->
-                            <a href="http://127.0.0.1:5000/" target="_blank" class="btn btn-outline-dark">Lihat Rekomendasi</a>
+                            <a href="http://127.0.0.1:5000/" target="_blank" class="btn btn-outline-dark">See Recomendation</a>
+                            <a href="https://5b153d3a.us2a.app.preset.io/superset/dashboard/8/?native_filters_key=cbxU_eJ0QDjanS9QOpivEuilw6fKVgKFFf8vGQE_jynJ3jQFo7tPAgxSI9aUkgoH" target="_blank" class="btn btn-outline-dark">More Insight</a>
                         </div>
                     </div>
                 </div>
