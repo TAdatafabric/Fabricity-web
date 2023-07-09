@@ -2,7 +2,7 @@ name: Scheduled Data Fabric
 
 on:
   schedule:
-    - cron: '30 9 * * *'  
+    - cron: '30 8 * * *'  
 
 jobs:
   build:
