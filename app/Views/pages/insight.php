@@ -5,9 +5,9 @@
     <div class="container insight-wrapper">
         <div class="col">
 
-            <div class="row mt-5 pt-5">
+            <div class="row mt-4 pt-5">
                 <div class="col-12">
-                
+
                 </div>
             </div>
 

@@ -48,9 +48,11 @@
             <div class="box-service">
                 <i class='bx bx-vertical-bottom'></i>
                 <h3>Insight</h3>
-                <p>Providing services online
-                    which can be access easily
-                    through our website</p>
+                <p>Giving you Business Insight
+                    so you can decide
+                    the next step of innovation
+                    for your company
+                </p>
             </div>
         </div>
 </section>
