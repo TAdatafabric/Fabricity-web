@@ -12,7 +12,7 @@
             </div>
 
             <div class="row mt-4">
-                <div class="col-lg-7">
+                <div class="col-lg-6">
                     <div class="card mb-3">
                         <div class="card-body text-center p-1">
                             <div id="map1">
@@ -22,7 +22,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-6">
                     <div>
                         <div class="card mb-3">
                             <div class="card-body text-center p-1">
@@ -39,7 +39,7 @@
                         <div class="text-center">
                             <!-- button lihat rekomendasi -->
                             <a href="http://127.0.0.1:5000/" target="_blank" class="btn btn-outline-dark">See Recomendation</a>
-                            <a href="https://5b153d3a.us2a.app.preset.io/superset/dashboard/8/?native_filters_key=cbxU_eJ0QDjanS9QOpivEuilw6fKVgKFFf8vGQE_jynJ3jQFo7tPAgxSI9aUkgoH" target="_blank" class="btn btn-outline-dark">More Insight</a>
+                            <a href="https://5b153d3a.us2a.app.preset.io/superset/dashboard/11/?native_filters_key=_qqTLHVs2K7XdUSidOs_MxV5t3zVdC9ctdf6zdPwaawKEXLyeaojEZ0EXfWJbS2V" target="_blank" class="btn btn-outline-dark">More Insight</a>
                         </div>
                     </div>
                 </div>
