@@ -15,7 +15,7 @@
         </div>
         <div class="content-right">
             <div class="img-wrapper">
-                <img src="image/front pict.png" alt="">
+                <img src="image/home pict.png" alt="">
             </div>
         </div>
     </div>
