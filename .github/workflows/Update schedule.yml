@@ -2,7 +2,7 @@ name: Scheduled Data Fabric
 
 on:
   schedule:
-    - cron: '40 9 * * *'  
+    - cron: '0 10 * * *'  
 
 jobs:
   build:
@@ -24,8 +24,8 @@ jobs:
            ./cloud_sql_proxy -instances=project-id:region:instance-name=tcp:3306 &
            sudo apt-get -y install mysql-client
            
-            mysql --host=34.101.46.136 --port=3306 --user=root --password=Ay0cepatlulu$ --execute="CREATE USER 'user_scheduling'@'%' IDENTIFIED BY 'Ay0cepatlulu$';"
-            mysql --host=34.101.46.136 --port=3306 --user=root --password=Ay0cepatlulu$ --execute="GRANT ALL PRIVILEGES ON *.* TO 'user_scheduling'@'%';"
+            mysql --host=34.101.46.136 --port=3306 --user=root --password=Ay0cepatlulu$ --execute="CREATE USER 'scheduling'@'%' IDENTIFIED BY 'Ay0cepatlulu$';"
+            mysql --host=34.101.46.136 --port=3306 --user=root --password=Ay0cepatlulu$ --execute="GRANT ALL PRIVILEGES ON *.* TO 'scheduling'@'%';"
             mysql --host=34.101.46.136 --port=3306 --user=root --password=Ay0cepatlulu$ --execute="FLUSH PRIVILEGES;"
            
       - name: Run Data Merge and Insert
