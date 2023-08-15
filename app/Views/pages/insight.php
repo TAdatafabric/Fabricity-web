@@ -39,7 +39,7 @@
                         <div class="text-center">
                             <!-- button lihat rekomendasi -->
                             <a href="http://127.0.0.1:5000/" target="_blank" class="btn btn-outline-dark">See Recomendation</a>
-                            <a href="https://5b153d3a.us2a.app.preset.io/superset/dashboard/11/?native_filters_key=_qqTLHVs2K7XdUSidOs_MxV5t3zVdC9ctdf6zdPwaawKEXLyeaojEZ0EXfWJbS2V" target="_blank" class="btn btn-outline-dark">More Insight</a>
+                            <a href="http://localhost:3000/d/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1" target="_blank" class="btn btn-outline-dark">More Insight</a>
                         </div>
                     </div>
                 </div>
