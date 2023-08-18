@@ -27,13 +27,13 @@
                         <div class="card mb-3">
                             <div class="card-body text-center p-1">
                                 <!-- Frame Service Filter -->
-                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688831099924&to=1688852699924&panelId=7" class="w-100 rounded" height="240" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1692255262993&to=1692276862993&panelId=7" class="w-100 rounded" height="240" frameborder="0"></iframe>
                             </div>
                         </div>
                         <div class="card mb-3">
                             <div class="card-body text-center p-1">
                                 <!-- Frame Usage -->
-                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1688831503747&to=1688853103747&panelId=6" class="w-100 rounded" height="240" frameborder="0"></iframe>
+                                <iframe src="http://localhost:3000/d-solo/ce34e6bd-e7d1-4481-85bb-ef4b834c936d/dbeaver?orgId=1&from=1692255371021&to=1692276971021&panelId=6" class="w-100 rounded" height="240" frameborder="0"></iframe>
                             </div>
                         </div>
                         <div class="text-center">
